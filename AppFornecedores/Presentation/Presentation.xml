@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Presentation</name>
+    </assembly>
+    <members>
+        <member name="M:Presentation.Data.SwaggerImplementation.AddSwagge(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            This method does all swagger configuration
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Presentation.Data.SwaggerImplementation.AddSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            This method does all swagger configuration
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="M:Presentation.Utils.Utils.GetCode(System.Collections.Generic.Dictionary{System.Int32,System.Object}.KeyCollection)">
+            <summary>
+            Method returns the status code  description ntered in the bll responses.
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Presentation.Utils.Utils.GetFirstValue(System.Collections.Generic.Dictionary{System.Int32,System.Object}.ValueCollection)">
+            <summary>
+            Method returns the first value entered in the bll responses.
+            </summary>
+            <param name="Values"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
